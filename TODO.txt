@@ -1,11 +1,3 @@
-IN SPACE!
-
-* Basic resources: food, water, light, oxygen, energy
-* Farm basic stuff from earth in a specialized place.
-* Collect oxygen and light to terramorph places outside.
-* Light is important and a really useful resourse.
-* Water recycling?
-
 Engine:
 * [DONE] Create a drawing object. Which will contain basically the
 virtual draw functions and a number to indicate at what level to draw it.
@@ -28,19 +20,12 @@ level) and draw them in order.
 	* AnimatedSprite
 	* Other player saving stuff
 
-* [DONE - can be improved] Make Chunk loader/saver
+* [DONE - can be greatly improved] Make Chunk loader/saver
 
-* [DONE - can be improved] World Manager
+* [DONE - can be greatly improved] World Manager
 
-* Add interactuables.
+* [NEEDS TONS OF WORK]Add interactuables.
 
-* START ON GAME ITSELF, FINALLY! ...I think
-	* Food collection
-	* Water Collection
-	* Structure building
-	* Oxygen
-	* Energy
+* [DONE] Keyboard input with enums.
 
-* Keyboard input with enums.
-
-* You are lost and in a forgotten martian station.
+* [NEEDS] Android incorporation using NDK, it is possible with raylib, why not here?

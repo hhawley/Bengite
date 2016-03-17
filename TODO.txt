@@ -1,0 +1,46 @@
+IN SPACE!
+
+* Basic resources: food, water, light, oxygen, energy
+* Farm basic stuff from earth in a specialized place.
+* Collect oxygen and light to terramorph places outside.
+* Light is important and a really useful resourse.
+* Water recycling?
+
+Engine:
+* [DONE] Create a drawing object. Which will contain basically the
+virtual draw functions and a number to indicate at what level to draw it.
+There will be 4 levels:
+
+	- (-1) The bottom layer. Reserved for the bottom tiles only.
+	- (0)  The floor layer. Reserved to objects which will be below the player
+	- (1)  The Player layer. Reserved to objects at the same level of the player
+	- (2)  The Top layer. Reserved for objects beyond the player reach.
+
+* [DONE] A drawing manager which will contain the drawing objects in different lists (for each
+level) and draw them in order.
+
+* [DONE - NOT WITH SHADER] Create translation shader.
+
+* [DONE - To some extent] Inlcude JSON serializer/deserializer in:
+	* Tile 			*
+	* Layer			*
+	* Chunk			* 
+	* AnimatedSprite
+	* Other player saving stuff
+
+* [DONE - can be improved] Make Chunk loader/saver
+
+* [DONE - can be improved] World Manager
+
+* Add interactuables.
+
+* START ON GAME ITSELF, FINALLY! ...I think
+	* Food collection
+	* Water Collection
+	* Structure building
+	* Oxygen
+	* Energy
+
+* Keyboard input with enums.
+
+* You are lost and in a forgotten martian station.
